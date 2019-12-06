@@ -216,7 +216,7 @@ a:hover {
 
 
 /* We not use this, but we only choose 1by1 for homepage */
-/* /*
+/*
 * {
     margin: 0;
     padding: 0;
@@ -268,7 +268,7 @@ body {
 */
 /* We don't need this because there are the real one in the below this css */
 ----------------------------------------------------
-* {
+/* {
 	margin: 0;
 	padding: 0;
   }
@@ -298,7 +298,7 @@ a:hover {
 	padding: 10px;
 	border: 5px solid #000;
 } */
-
+/*
 #header {
 height: 160px;
 background: #554d42 url(images/header.jpg) no-repeat;
@@ -328,7 +328,7 @@ height: 30px;
     color:thistle;
     font-size: 150%; 
     text-align: center;
-    /* we add this three because the style is INLINE STYLE, so i add it to here */
+    /* we add this three because the style is INLINE STYLE, so i add it to here *//*
 line-height: 30px;
 background: #000;
 }
@@ -356,25 +356,25 @@ text-decoration: none;
 padding: 0 20px 20px 0;
 }
 We din't use this style because the position is not good */
-/* We use this style to set the content and picture position */
+/* We use this style to set the content and picture position *//*/*
     /* Style the content */
-    #content{
+  /*  #content{
       padding: 20px;
 
     }
     /* this line about first content 2 img */
-    #first-content{
+   /* #first-content{
       text-align: center;
     }
     #second-content{
       text-align: center;
     }
     /* this line about diplay content */
-    #img1{
+   /* #img1{
       display: inline-block;
     }
     /* style img */
-    #img1 > img{
+  /*  #img1 > img{
       height: 300px;
       width: 500px;
       margin: 10px;
@@ -445,4 +445,4 @@ color: #aaa;
 	padding: 10px;
 	border-radius: 5px;
 	border: 2px solid transparent;
-} */
+}
