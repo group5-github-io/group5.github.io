@@ -158,7 +158,7 @@ We din't use this style because the position is not good */
     /* style img */
     #img1 > img{
       height: 300px;
-      width: 533.328;
+      width: 500px;
       margin: 10px;
     }
     #img1:hover{
