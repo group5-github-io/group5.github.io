@@ -1,4 +1,222 @@
-/*
+/*===:::::::::::::::::::: Another tool ::::::::::::::::::::===*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #333;
+  font-family: Tahoma, Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  line-height: 20px;
+  color: #222;
+}
+
+a {
+  text-decoration: none;
+  color: #99AECD;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #4F5D7F;
+}
+
+/*===:::::::::::::::::::: Header ::::::::::::::::::::===*/
+#header{
+  height: 160px;
+  background: #554d42 url(images/header.jpg) no-repeat;
+  text-align: center; 
+  color: white; 
+  font-size: 300%;
+}
+#header h1{
+  font-size: 50px;
+  letter-spacing: -7px;
+  padding: 17px 0 0 10px;
+  color: #FF5500;
+}
+#header h1 a{
+  color: #D1DDEF;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: -7px;
+}
+#header h1 a:hover{
+  color: #fff;
+}
+
+/*===:::::::::::::::::::: Menu ::::::::::::::::::::===*/
+#menu {
+  height: 30px;
+  color:thistle;
+  font-size: 150%; 
+  text-align: center;
+  line-height: 30px;
+  background: #000;
+}
+#menu ul {
+  list-style-type: none;
+  padding-left: 30px;
+}
+#menu ul li {
+  display: block;
+  float: left;
+}
+#menu ul li a {
+  padding: 0 20px 0 0;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 12px;
+  color: #fff;
+}
+#menu ul li a:hover {
+  color: #aaa;
+  text-decoration: none;
+}
+
+/*===:::::::::::::::::::: Content ::::::::::::::::::::===*/
+
+#content{
+  padding: 20px;
+}
+#first-content{
+  text-align: center;
+}
+#second-content{
+  text-align: center;
+}
+#img1{
+  display: inline-block;
+}
+#img1 > img{
+  height: 300px;
+  width: 500px;
+  margin: 10px;
+}
+#img1:hover{
+  background-color: white;
+}
+#wrap {
+  margin: 20px auto 10px auto;
+  width: 800px;
+  background: #fff;
+  padding: 10px;
+  border: 5px solid #000;
+}
+
+/*===:::::::::::::::::::: Footer ::::::::::::::::::::===*/
+#footer {
+  text-align: center;
+  font-size: 11px;
+  color: #aaa;
+}
+#footer a {
+  color: #aaa;
+}
+#footer a:hover {
+  color: #111;
+}
+
+/*===:::::::::::::::::::: MEDIA ::::::::::::::::::::===*/
+@media (max-width: 1100px){
+  #content{
+      padding: 10px;
+  }
+  #img1 > img{
+      width: 450px;
+      height: auto;
+  }
+}
+@media (max-width: 980px){
+  #img1 > img{
+      width: 400px;
+      height: auto;
+  }
+}
+@media (max-width: 880px){
+  #img1 > img{
+      width: 350px;
+      height: auto;
+  }
+}
+@media (max-width: 780px){
+  #img1 > img{
+      width: 300px;
+      height: auto;
+  }
+}
+@media (max-width: 676px){
+  #img1 > img{
+      width: 250px;
+      height: auto;
+  }
+}
+@media (max-width: 630px){
+  #menu {
+      height: 65px;
+  }
+}
+@media (max-width: 567px){
+  #img1 > img{
+      width: 200px;
+      height: auto;
+  }
+}
+@media (max-width: 463px){
+  #img1 > img{
+      width: 400px;
+      height: auto;
+  }
+}
+@media (max-width: 430px){
+  #img1 > img{
+      width: 350px;
+      height: auto;
+  }
+}
+@media (max-width: 425px){
+  #header h1{
+      font-size: 45px;
+  }
+}
+@media (max-width: 381px){
+  #img1 > img{
+      width: 300px;
+      height: auto;
+  }
+}
+@media (max-width: 375px){
+  #header h1{
+      font-size: 40px;
+  }
+}
+@media (max-width: 334px){
+  #menu {
+      height: 95px;
+  }
+}
+@media (max-width: 327px){
+  #img1 > img{
+      width: 250px;
+      height: auto;
+  }
+}
+@media (max-width: 320px){
+  #header h1{
+      font-size: 35px;
+  }
+}
+@media (max-width: 286px){
+  #img1 > img{
+      width: 200px;
+      height: auto;
+  }
+}
+
+
+/* We not use this, but we only choose 1by1 for homepage */
+/* /*
 * {
     margin: 0;
     padding: 0;
@@ -73,13 +291,13 @@ a:hover {
 	color: #4F5D7F;
        }
 
-#wrap {
+/* #wrap {
 	margin: 20px auto 10px auto;
 	width: 800px;
 	background: #fff;
 	padding: 10px;
 	border: 5px solid #000;
-}
+} */
 
 #header {
 height: 160px;
@@ -227,4 +445,4 @@ color: #aaa;
 	padding: 10px;
 	border-radius: 5px;
 	border: 2px solid transparent;
-}
+} */
