@@ -109,9 +109,12 @@ We din't use this style because the position is not good */
     }
 
 #footer {
-text-align: center;
+/*text-align: center;
+color: #aaa;*/
 font-size: 11px;
-color: #aaa;
+    color: white; 
+    text-align: center;
+    /* we add this two because the style is INLINE STYLE, so i add it to here */
 }
 
 /*Blue Button*/
