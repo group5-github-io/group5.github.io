@@ -48,7 +48,9 @@ img.avatar {
 span.psw {
   float: right;/*Provide the distance between cancel and forgot password */
   padding-top: 16px;/*To adjust the position of additional content*/
-
+}
+span.psw b{
+    color: deepskyblue;
 }
 
 /* Change styles for span and cancel button on extra small screens */
@@ -71,5 +73,10 @@ background: #554d42 url(images/header.jpg) no-repeat;
     font-family:;
     
 }
-
+a{
+    color: cyan;
+}
+label{
+    color: red;
+}
 
