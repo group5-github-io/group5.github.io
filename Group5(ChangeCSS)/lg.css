@@ -59,6 +59,7 @@ span.psw b{
   span.psw {
      display: block;
      float: none;
+   test-decoration:none;
   }
   .cancelbtn {
      width: 100%;
