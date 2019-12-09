@@ -51,6 +51,7 @@ span.psw {
 }
 span.psw b{
     color: deepskyblue;
+    text-decoration:none;
 }
 
 /* Change styles for span and cancel button on extra small screens */
@@ -58,6 +59,7 @@ span.psw b{
   span.psw {
      display: block;
      float: none;
+   test-decoration:none;
   }
   .cancelbtn {
      width: 100%;
@@ -68,9 +70,9 @@ span.psw b{
 height: 130px;
 background: #554d42 url(images/header.jpg) no-repeat;
     text-align: center; 
-    color: red; 
+    color: white; 
     font-size: 250%;
-    font-family:;
+    font-family:none;
     
 }
 a{
