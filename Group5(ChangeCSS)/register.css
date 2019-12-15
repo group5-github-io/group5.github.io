@@ -23,7 +23,8 @@ a:hover {
 
 #header {
 height: 160px;
-background: /*#554d42*/ #ffcc66 url(images/header.jpg) no-repeat;
+background: #554d42
+    url(images/header.jpg) no-repeat;
     text-align: center; 
     color: white; 
     font-size: 300%;
@@ -84,7 +85,7 @@ We din't use this style because the position is not good */
     /* Style the content */
     #content{
       height: 700px;
-      background-color: #ffcc66;
+      background-color: #554D42;
       
     }
     /* Style the h1 element */
@@ -97,6 +98,7 @@ We din't use this style because the position is not good */
         text-align: center;
         margin-left: 40%;
         padding: 10px;
+        color: #F0E68C
         
     }
     /* Style the left register */
