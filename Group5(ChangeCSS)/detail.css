@@ -83,7 +83,7 @@ We din't use this style because the position is not good */
 /* We use this style to set the content and picture position */
      /* Style the content */
     #content{
-      background-color: #ffcc66;
+      background-color: #333;
     }
     /* Style the image size */
     #img1 img{
