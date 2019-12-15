@@ -21,13 +21,6 @@ a:hover {
 	color: #4F5D7F;
        }
 
-#wrap {
-	margin: 20px auto 10px auto;
-	width: 800px;
-	background: #fff;
-	padding: 10px;
-	border: 5px solid #000;
-}
 
 #header {
 height: 160px;
@@ -396,6 +389,14 @@ body {
 	width: 1000px;
 	background: rgb(63, 63, 63);
 	border: 2px solid #000;
+}
+
+#wrap {
+	margin: 20px auto 10px auto;
+	width: 800px;
+	background: #fff;
+	padding: 10px;
+	border: 5px solid #000;
 }
 <!-- Template for the home page -->
 #menu{
