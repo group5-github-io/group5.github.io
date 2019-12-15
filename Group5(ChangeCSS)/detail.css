@@ -21,13 +21,6 @@ a:hover {
 	color: #4F5D7F;
        }
 
-#wrap {
-	margin: 20px auto 10px auto;
-	width: 800px;
-	background: #fff;
-	padding: 10px;
-	border: 5px solid #000;
-}
 
 #header {
 height: 160px;
@@ -90,7 +83,7 @@ We din't use this style because the position is not good */
 /* We use this style to set the content and picture position */
      /* Style the content */
     #content{
-      background-color: deepskyblue;
+      background-color: #333;
     }
     /* Style the image size */
     #img1 img{
@@ -98,11 +91,11 @@ We din't use this style because the position is not good */
     }
     /* Style the content background */
     #img2{
-        background-color: dodgerblue;
+        background-color: #ffffcc;
         padding-top: 0px;
     }
     /* Style the content background */
-    #wrap{
+    .wrap{
         margin-left: 50px;
         margin-right: 50px;
         background-color: #fffcfc;
@@ -153,8 +146,21 @@ font-size: 11px;
     .wrap{
         font-size: 250%;
     }
+    .wrap h2{
+        padding-top: 0px;
+        padding-bottom: 5px;
+    }
+    #img2{
+        padding-top: 10px;
+        margin-bottom: 10px;
+    }
     #img1 img{
         height: 200px;
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+    p{
+        padding-bottom: 15px;
     }
     #Blue-Button{
         width: 300px;
@@ -258,7 +264,7 @@ font-size: 11px;
         font-size: 10px;
     }
 }
-@media only screen and (max-width: 426px){
+@media only screen and (max-width: 425px){
 /* For Mobile L */
     #header h1{
         font-size: 110%;
@@ -273,7 +279,7 @@ font-size: 11px;
         height: 15x;
         font-size: 6px;
         float: right;
-        padding-right: 22px;
+        padding-right: 0px;
         margin-top: 4px;
     }
     .wrap{
@@ -311,7 +317,7 @@ font-size: 11px;
         height: 22px;
         font-size: 7px;
         float: right;
-        padding-right: 24px;
+        padding-right: 22px;
         margin-top: -2px;
     }
     .wrap{
@@ -346,11 +352,11 @@ font-size: 11px;
     }
     button{
         width:12px;
-        height: 24px;
+        height: 20px;
         font-size: 6px;
         float: right;
-        padding-right: 28px;
-        margin-top: -2px;
+        padding-right: 20px;
+        margin-top: 2px;
     }
     .wrap{
         font-size: 100%;
@@ -383,6 +389,14 @@ body {
 	width: 1000px;
 	background: rgb(63, 63, 63);
 	border: 2px solid #000;
+}
+
+#wrap {
+	margin: 20px auto 10px auto;
+	width: 800px;
+	background: #fff;
+	padding: 10px;
+	border: 5px solid #000;
 }
 <!-- Template for the home page -->
 #menu{
