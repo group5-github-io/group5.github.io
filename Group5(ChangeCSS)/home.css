@@ -88,14 +88,23 @@ a:hover {
 }
 #img1{
   display: inline-block;
+  border: 1px rgb(206, 203, 203) solid;
 }
-#img1 > img{
+img{
   height: 300px;
   width: 500px;
-  margin: 10px;
+  margin: 10px 10px 0 10px;
+  color: ;
 }
 #img1:hover{
   background-color: white;
+  color: black;
+}
+.paragraph1{
+  width: 490px;
+  text-align: left;
+  margin-left: 10px;
+  color: ;
 }
 #wrap {
   margin: 20px auto 10px auto;
@@ -118,36 +127,36 @@ a:hover {
   color: #111;
 }
 
-/*===:::::::::::::::::::: MEDIA ::::::::::::::::::::===*/
+===:::::::::::::::::::: MEDIA ::::::::::::::::::::===
 @media (max-width: 1100px){
   #content{
       padding: 10px;
   }
-  #img1 > img{
+  img{
       width: 450px;
       height: auto;
   }
 }
 @media (max-width: 980px){
-  #img1 > img{
+  img{
       width: 400px;
       height: auto;
   }
 }
 @media (max-width: 880px){
-  #img1 > img{
+  img{
       width: 350px;
       height: auto;
   }
 }
 @media (max-width: 780px){
-  #img1 > img{
+  img{
       width: 300px;
       height: auto;
   }
 }
 @media (max-width: 676px){
-  #img1 > img{
+  img{
       width: 250px;
       height: auto;
   }
@@ -158,19 +167,19 @@ a:hover {
   }
 }
 @media (max-width: 567px){
-  #img1 > img{
+  img{
       width: 200px;
       height: auto;
   }
 }
 @media (max-width: 463px){
-  #img1 > img{
+  img{
       width: 400px;
       height: auto;
   }
 }
 @media (max-width: 430px){
-  #img1 > img{
+  img{
       width: 350px;
       height: auto;
   }
@@ -181,7 +190,7 @@ a:hover {
   }
 }
 @media (max-width: 381px){
-  #img1 > img{
+  img{
       width: 300px;
       height: auto;
   }
@@ -197,7 +206,7 @@ a:hover {
   }
 }
 @media (max-width: 327px){
-  #img1 > img{
+  img{
       width: 250px;
       height: auto;
   }
@@ -208,7 +217,7 @@ a:hover {
   }
 }
 @media (max-width: 286px){
-  #img1 > img{
+  img{
       width: 200px;
       height: auto;
   }
