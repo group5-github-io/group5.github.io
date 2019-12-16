@@ -1,0 +1,63 @@
+body {font-family: Arial, Helvetica,
+ sans-serif;background-color:#554d42;}
+
+input[type=text], input[type=password] {
+  width: 100%; /*column of text and password width will be 100%*/
+  padding: 12px 20px;/*distance for box name between box name and box password*/
+  margin: 8px 0;/*margin will be 8px*/
+  display: inline-block; /*di box will display in one paragraph*/
+  border: 1px solid #ccc; /*border for box*/
+  box-sizing: border-box;
+  /* 可以使得输入框长度变得有限 */ /*border will be according to the box*/
+}
+
+button {
+  background-color: #4CAF50; /*color in the column for login*/
+  color: white;
+  padding: 14px 20px; /*distance for box name between box name and login*/
+  margin: 8px 0;/*margin will be 8px*/
+  border: none;
+  width: 100%;/*column of text and login width will be 100%*/
+}
+
+button:hover {
+  opacity: 0.8;/* 透明度 */
+}
+
+.cancelbtn {
+  width: auto;/*To clarify the column in the Cancel*/ 
+  padding: 10px 20px;/*Distance between names of forget passwords box */
+  background-color: #f44336;/*Color in the column to login */
+}
+
+.container {
+  padding:16px;
+  background-color:#554d42;
+}
+
+span.psw {
+  float: right;/*Provide the distance between cancel and forgot password */
+  padding-top: 16px;/*To adjust the position of additional content*/
+
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  .psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+
+#header {
+height: 130px;
+background: #554d42 no-repeat;
+    text-align: center; 
+    color: red; 
+    font-size: 250%;
+
+}
+
